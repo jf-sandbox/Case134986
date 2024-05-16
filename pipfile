@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygithub = "*"
+requests = "*"
+kubernetes = "*"
+pyyaml = "*"
+pandas = "1.*"
+tdqm = "*"
+click = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+cryptography = "*"
+jira = "*"
+"ruamel.yaml" = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
